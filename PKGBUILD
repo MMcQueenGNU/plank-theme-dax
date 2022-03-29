@@ -20,3 +20,4 @@ package() {
 	cd $srcdir/$pkgname
 	mkdir -p $pkgdir/usr/share/plank/themes/dax
 	install -m 755 dock.theme $pkgdir/usr/share/plank/themes/dax/
+}
